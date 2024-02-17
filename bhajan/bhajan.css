@@ -1,0 +1,77 @@
+.bhajanpage{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    /* margin: 4em; */
+}
+.bhajanList{
+    background-color: orange;
+    width: 22.5em;
+}
+.bhajanContent{
+    /* background-color: rgb(219, 188, 131); */
+    width: 45em;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    margin-top: 2em;
+}
+.left-pane {
+    flex: 0 0 15%; /* Fixed width for left pane */
+    /* background-color: orangered; */
+    /* border-right: 0.1em solid rebeccapurple; */
+    padding: 1em;
+}
+.right-pane {
+    flex: 1; /* Take remaining space */
+    left: 10%;
+}
+/* Style for list items */
+.list-item {
+    cursor: pointer;
+    margin-bottom: 0.2em;
+    background-color: rgba(255, 68, 0, 0.811);
+}
+button{
+    width: 12em;
+    height: 3em;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+}
+
+
+
+
+.bhajan{
+    margin-left: 20%;
+    color: black;
+    font-weight:500;
+    line-height: 1.5em;
+    word-spacing: 0.3em;
+}
+
+/* @media only screen and  (max-width: 25em){
+    .left-pane {
+        flex: 0 0 5%;} 
+
+    .bhajanList{
+        width: 8em;
+        margin-left: -3em;
+    }
+    .bhajanContent{
+        width: 15em;
+    }
+    .bhajan{
+        margin: 1%;
+    }
+    button{
+        width: 6em;
+        height: auto;
+    }
+} */

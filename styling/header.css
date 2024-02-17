@@ -1,0 +1,43 @@
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+.navbar {
+    width: 100%;
+    height:max-content;
+    background-color: #fff; 
+    box-shadow: 0em 0.12em 0.31em rgba(0, 0, 0, 0.1); 
+    position: sticky;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.navbar-nav a {
+    margin: 1.2em 2em;
+    font-size: 1.2em;
+    color: darkred;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    background-color: orange;
+}
+
+@media only screen and (max-width: 25em){
+    .navbar{
+        width: 25em;
+    }
+
+}
+    
+
+
+
+
